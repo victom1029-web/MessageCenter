@@ -1,0 +1,313 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+.hero{
+padding:30px 20px;
+background:linear-gradient(135deg,#111,#1b1b1b,#000);
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:40px;
+}
+
+nav h2{
+color:#FFD700;
+font-size:22px;
+}
+
+nav a{
+background:#FFD700;
+color:#000;
+padding:10px 18px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero-content{
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+color:#ddd;
+margin-bottom:25px;
+}
+
+.price{
+margin:25px 0;
+}
+
+.old{
+text-decoration:line-through;
+color:#999;
+font-size:24px;
+margin-right:12px;
+}
+
+.new{
+font-size:40px;
+font-weight:bold;
+color:#FFD700;
+}
+
+.btn{
+display:inline-block;
+background:#FFD700;
+color:#000;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+margin-top:15px;
+}
+
+section{
+padding:50px 20px;
+}
+
+section h2{
+text-align:center;
+font-size:32px;
+margin-bottom:25px;
+color:#FFD700;
+}
+
+ul{
+list-style:none;
+max-width:500px;
+margin:auto;
+}
+
+ul li{
+background:#1f1f1f;
+padding:18px;
+margin:15px 0;
+border-radius:12px;
+font-size:18px;
+border-left:5px solid #FFD700;
+}
+
+#buy{
+text-align:center;
+background:#151515;
+}
+
+#buy p{
+font-size:20px;
+margin:20px 0;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:32px;
+}
+
+.new{
+font-size:32px;
+}
+
+section h2{
+font-size:28px;
+}
+
+}.badge{
+background:#FFD700;
+color:#000;
+display:inline-block;
+padding:10px 20px;
+border-radius:30px;
+font-weight:bold;
+margin-bottom:20px;
+}.trust{
+padding:50px 20px;
+background:#151515;
+}
+
+.trust h2{
+text-align:center;
+color:#FFD700;
+margin-bottom:30px;
+}
+
+.trust-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.item{
+background:#222;
+padding:20px;
+border-radius:15px;
+text-align:center;
+border:2px solid #FFD700;
+}
+
+.item h3{
+color:#FFD700;
+font-size:24px;
+}
+
+.item p{
+color:#fff;
+margin-top:10px;
+}.modules{
+padding:60px 20px;
+background:#111;
+}
+
+.module-card{
+background:#1d1d1d;
+padding:20px;
+margin:20px 0;
+border-radius:20px;
+border-left:6px solid #FFD700;
+box-shadow:0 10px 25px rgba(255,215,0,.15);
+}
+
+.module-card h3{
+color:#FFD700;
+margin-bottom:10px;
+}
+
+.module-card p{
+color:#ddd;
+font-size:17px;
+}.reviews{
+padding:60px 20px;
+background:#151515;
+}
+
+.review{
+background:#222;
+padding:20px;
+margin:20px 0;
+border-radius:15px;
+border:2px solid #FFD700;
+}
+
+.review h3{
+color:#FFD700;
+margin-bottom:10px;
+}
+
+.review p{
+color:#ddd;
+line-height:1.6;
+}.faq{
+padding:60px 20px;
+background:#111;
+}
+
+.faq h2{
+text-align:center;
+color:#FFD700;
+margin-bottom:30px;
+}
+
+.faq-box{
+background:#222;
+padding:20px;
+margin-bottom:20px;
+border-radius:15px;
+border-left:5px solid #FFD700;
+}
+
+.faq-box h3{
+color:#FFD700;
+margin-bottom:10px;
+}
+
+.faq-box p{
+color:#ddd;
+line-height:1.6;
+}.sticky-buy{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#FFD700;
+padding:15px;
+text-align:center;
+z-index:9999;
+box-shadow:0 -5px 20px rgba(0,0,0,.3);
+}
+
+.sticky-buy a{
+color:#000;
+font-size:22px;
+font-weight:bold;
+text-decoration:none;
+display:block;
+}.telegram{
+position:fixed;
+right:20px;
+bottom:90px;
+width:60px;
+height:60px;
+background:#229ED9;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
+z-index:9999;
+color:#fff;
+}.comparison-flex {
+    display: flex;
+    flex-direction: row; /* Ise row karne se mobile par bhi agal-bagal dikhega */
+    gap: 10px;          /* Dono box ke beech ka gap thoda kam kiya taaki screen par fit ho */
+    justify-content: space-between;
+}
+
+.comp-box {
+    flex: 1;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid;
+}
+
+.comp-box ul li {
+    font-size: 12px;    
+    margin-bottom: 8px;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+}
+.top-banner-container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px; /* Niche wale text se thoda gap rakhne ke liye */
+}
+
+.top-banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
